@@ -20,7 +20,7 @@ public class AuthorAppService : ApplicationService, IAuthorAppService
     
     public async Task<AuthorDto> GetAsync(Guid id)
     {
-        var author = await _authorRepository.GetAuthorById(id);
+        var author = await _authorRepository.GetAsync(id);
         return ObjectMapper.Map<Author, AuthorDto>(author);
     }
 
