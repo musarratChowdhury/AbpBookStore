@@ -1,0 +1,109 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.BasicTheme": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/09/2026 05:44:42 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/09/2026 05:44:42 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/09/2026 05:44:42 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/09/2026 05:44:42 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/09/2026 05:44:42 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/09/2026 05:44:42 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/09/2026 05:44:42 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/09/2026 05:44:42 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Mush.BookStore.Application": {
+      "path": "src/Mush.BookStore.Application/Mush.BookStore.Application.abppkg",
+      "folder": "src"
+    },
+    "Mush.BookStore.Application.Tests": {
+      "path": "test/Mush.BookStore.Application.Tests/Mush.BookStore.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Mush.BookStore.Domain.Shared": {
+      "path": "src/Mush.BookStore.Domain.Shared/Mush.BookStore.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Mush.BookStore.Application.Contracts": {
+      "path": "src/Mush.BookStore.Application.Contracts/Mush.BookStore.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Mush.BookStore.HttpApi": {
+      "path": "src/Mush.BookStore.HttpApi/Mush.BookStore.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Mush.BookStore.HttpApi.Client": {
+      "path": "src/Mush.BookStore.HttpApi.Client/Mush.BookStore.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Mush.BookStore.EntityFrameworkCore.Tests": {
+      "path": "test/Mush.BookStore.EntityFrameworkCore.Tests/Mush.BookStore.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Mush.BookStore.EntityFrameworkCore": {
+      "path": "src/Mush.BookStore.EntityFrameworkCore/Mush.BookStore.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Mush.BookStore.TestBase": {
+      "path": "test/Mush.BookStore.TestBase/Mush.BookStore.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Mush.BookStore.Domain.Tests": {
+      "path": "test/Mush.BookStore.Domain.Tests/Mush.BookStore.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Mush.BookStore.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Mush.BookStore.HttpApi.Client.ConsoleTestApp/Mush.BookStore.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Mush.BookStore.DbMigrator": {
+      "path": "src/Mush.BookStore.DbMigrator/Mush.BookStore.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Mush.BookStore.HttpApi.Host": {
+      "path": "src/Mush.BookStore.HttpApi.Host/Mush.BookStore.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Mush.BookStore.Domain": {
+      "path": "src/Mush.BookStore.Domain/Mush.BookStore.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

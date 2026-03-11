@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/Mush.BookStore.Domain/Mush.BookStore.Domain.csproj" />
+        <Project Path="src/Mush.BookStore.Application/Mush.BookStore.Application.csproj" />
+        <Project Path="src/Mush.BookStore.EntityFrameworkCore/Mush.BookStore.EntityFrameworkCore.csproj" />
+        <Project Path="src/Mush.BookStore.Domain.Shared/Mush.BookStore.Domain.Shared.csproj" />
+        <Project Path="src/Mush.BookStore.Application.Contracts/Mush.BookStore.Application.Contracts.csproj" />
+        <Project Path="src/Mush.BookStore.HttpApi/Mush.BookStore.HttpApi.csproj" />
+        <Project Path="src/Mush.BookStore.HttpApi.Client/Mush.BookStore.HttpApi.Client.csproj" />
+        <Project Path="src/Mush.BookStore.DbMigrator/Mush.BookStore.DbMigrator.csproj" />
+        <Project Path="src/Mush.BookStore.HttpApi.Host/Mush.BookStore.HttpApi.Host.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/Mush.BookStore.Application.Tests/Mush.BookStore.Application.Tests.csproj" />
+        <Project Path="test/Mush.BookStore.EntityFrameworkCore.Tests/Mush.BookStore.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/Mush.BookStore.TestBase/Mush.BookStore.TestBase.csproj" />
+        <Project Path="test/Mush.BookStore.Domain.Tests/Mush.BookStore.Domain.Tests.csproj" />
+        <Project Path="test/Mush.BookStore.HttpApi.Client.ConsoleTestApp/Mush.BookStore.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>
